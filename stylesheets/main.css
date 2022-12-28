@@ -1,0 +1,428 @@
+@import "./reset.css";
+<style> @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap'); </style>
+
+*{
+    box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden
+}
+
+html, body{
+    height: 100%;
+    background-color: #FCDEF4;
+}
+
+body {
+  font-family: 'Roboto Slab', serif;
+
+}
+
+.header {
+  padding-top: 32.82px;
+  padding-left: 10px
+  background-color: #FCDEF4;
+}
+
+.container {
+  max-width: 1280px;
+/*  padding: 0px; */
+  padding-left: : -100px;
+}
+
+/* .header1 {
+  display: flex;
+/*  justify-content: space-between;
+  align-items: flex-end; */
+}
+
+.name {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.text1 {
+  display:block;
+  font-family: Roboto Slab;
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 92px;
+
+}
+
+.img1 {
+/*  display: flex; */
+  position: relative;
+  height: 292px;
+  width: 781px;
+  left: 50px;
+  top: 64px;
+}
+
+.img2 {
+  position: absolute;
+  display: flex;
+  height: 150px;
+  width: 150px;
+  left: 794px;
+  top: 14px;
+
+}
+
+.img3 {
+  position: absolute;
+  display: flex;
+  height: 166px;
+  width: 196px;
+  left: 1108px;
+  top: 21px;
+  border-radius: 0px;
+
+}
+
+.text1 {
+  position: absolute;
+  font-family: Roboto Slab;
+  font-size: 60px;
+  margin-left: 170px;
+  margin-top: -120px;
+  text-align: center;
+
+}
+
+/* .line1 {
+  position: relative;
+  height: 0px;
+  width: 1275px;
+  left: 0;
+  top: -700px;
+}  */
+
+.hb {
+  display: flex;
+ position: absolute;
+ margin-left: 37px;
+ margin-top: 200px;
+}
+
+.ariana {
+  display: flex;
+  position: absolute;
+  min-width: 1752px;
+  min-height: 1071px;
+  margin-left: 500px;
+  margin-top: -200px;
+
+}
+
+.healed {
+  display: flex;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 417.21px;
+  top: 452px;
+
+}
+
+.mike {
+  display: flex;
+  position: absolute;
+  margin-left: 734px;
+  margin-top: -40px;
+}
+
+.round1 {
+  display: flex;
+  position: absolute;
+  margin-left: 76px;
+  margin-top: 400px;
+
+}
+
+.hearts1 {
+  display: flex;
+  position: absolute;
+  margin-left: 594px;
+  margin-top: 300px;
+}
+
+.ari {
+  position: absolute;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+  margin-left: 190px;
+  margin-top: 438px;
+
+}
+
+.lips1 {
+  display: flex;
+  position: absolute;
+  margin-left: 435px;
+  margin-top: 700px;
+}
+
+.hrts2 {
+  display: flex;
+  position: absolute;
+  margin-left: 28px;
+  margin-top: 643px;
+}
+
+.tmbrlk {
+  display: flex;
+  position: absolute;
+  min-width: 721px;
+  min-height: 959px;
+  margin-left: -100px;
+  margin-top: 915px;
+}
+
+.msc {
+  display: flex;
+  position: absolute;
+  margin-left: 637px;
+  margin-top: 1000px;
+}
+
+.lips0 {
+  display: flex;
+  position: absolute;
+  margin-left: 1018px;
+  margin-top: 1126px;
+}
+
+.round2 {
+  display: flex;
+  position: absolute;
+  margin-left: 737px;
+  margin-top: 1362px;
+}
+
+.tmb {
+  position: absolute;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+  margin-left: 891px;
+  margin-top: 1387px;
+}
+
+.hearts2 {
+  display: flex;
+  position: absolute;
+  margin-left: 737px;
+  margin-top: 1568px;
+
+}
+
+.stars1 {
+  display: flex;
+  position: absolute;
+  margin-left: 1121px;
+  margin-top: 1632px;
+
+}
+
+.billie {
+  display: flex;
+  position: absolute;
+  min-width: 891px;
+  min-height: 797px;
+  margin-left: 800px;
+  margin-top: 1756px;
+}
+
+.stars2 {
+  display: flex;
+  position: absolute;
+  margin-left: 650px;
+  margin-top: 1881px;
+
+}
+
+.lips2 {
+  display: flex;
+  position: absolute;
+  margin-left: 54px;
+  margin-top: 1713px;
+}
+
+.smile {
+  display: flex;
+  position: absolute;
+  margin-left: 249px;
+  margin-top: 1900px;
+}
+
+.round3 {
+  display: flex;
+  position: absolute;
+  margin-left: 123px;
+  margin-top: 2133px;
+}
+
+.bll {
+  position: absolute;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+  margin-left: 300px;
+  margin-top: 2156px;
+}
+
+.hdf {
+  display: flex;
+  position: absolute;
+  margin-left: 531px;
+  margin-top: 2341px;
+}
+
+.gotya {
+  display: flex;
+  position: absolute;
+  min-width: 784px;
+  min-height: 853px;
+  margin-left: -75px;
+  margin-top: 2276px;
+}
+
+.hrts {
+  display: flex;
+  position: absolute;
+  margin-left: 553px;
+  margin-top: 2700px;
+}
+
+.round4 {
+  display: flex;
+  position: absolute;
+  margin-left: 784px;
+  margin-top: 2668px;
+}
+
+.gty {
+  position: absolute;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+  margin-left: 989px;
+  margin-top: 2691px;
+}
+
+.hrts3 {
+  display: flex;
+  position: absolute;
+  margin-left: 1200px;
+  margin-top: 2585px;
+}
+
+.strela {
+  display: flex;
+  position: absolute;
+  margin-left: 1020px;
+  margin-top: 2907px;
+}
+
+.lips4 {
+  display: flex;
+  position: absolute;
+  margin-left: 702px;
+  margin-top: 2984px;
+}
+
+.nota {
+  display: flex;
+  position: absolute;
+  margin-left: 1179px;
+  margin-top: 2995px;
+}
+
+.smith {
+  display: flex;
+  position: absolute;
+  min-width: 784px;
+  min-height: 853px;
+  margin-left: 888px;
+  margin-top: 3043px;
+}
+
+.smth {
+  position: absolute;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+  margin-left: 267px;
+  margin-top: 3454px;
+}
+
+
+.round5 {
+  display: flex;
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 3424px;
+}
+
+.bh {
+  display: flex;
+  position: absolute;
+  margin-left: 196px;
+  margin-top: 3119px;
+}
+
+.lips3 {
+  display: flex;
+  position: absolute;
+  margin-left: -44px;
+  margin-top: 3253px;
+}
+
+.stars3 {
+  display: flex;
+  position: absolute;
+  margin-left: 633px;
+  margin-top: 3227px;
+
+}
+
+.bh2 {
+  display: flex;
+  position: absolute;
+  margin-left: 34px;
+  margin-top: 3603px;
+}
+.hrtss {
+  display: flex;
+  position: absolute;
+  margin-left: 394px;
+  margin-top: 3542px;
+}
+
+.lips4 {
+  display: flex;
+  position: absolute;
+  margin-left: 67px;
+  margin-top: 3768px;
+}
+
+.lips5 {
+  display: flex;
+  position: absolute;
+  margin-left: 431px;
+  margin-top: 3690px;
+}
